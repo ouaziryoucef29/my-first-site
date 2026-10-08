@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقعي الأول | يوسف</title>
-    <!-- رابط ملف CSS خارجي (سننشئه لاحقاً) -->
-    <link rel="stylesheet" href="style.css">
+    <title>موقع يوسف الشخصي</title>
+    <style>
+        /* هذا هو كود التصميم */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f7f6; 
+            color: #333; 
+            margin: 0; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        .container { 
+            max-width: 600px; 
+            margin: 50px auto; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 15px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+        }
+        h1 { color: #2c3e50; }
+        a { color: #3498db; text-decoration: none; font-weight: bold; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 10px 0; padding: 10px; background: #f9f9f9; border-radius: 5px; border-right: 5px solid #3498db; }
+        footer { margin-top: 20px; font-size: 0.8em; color: #777; }
+    </style>
 </head>
 <body>
-    <header>
+
+    <div class="container">
         <h1>مرحباً بالعالم!</h1>
         <p>هذا أول موقع لي صنعته من هاتفي المحمول 📱</p>
-    </header>
+        
+        <hr>
+        
+        <h2>من أنا؟</h2>
+        <p>اسمي يوسف، وأنا أتعلم البرمجة لبناء مواقع وتطبيقات رائعة!</p>
+        
+        <h2>مشروعاتي</h2>
+        <ul>
+            <li>مشروع 1 (قريباً)</li>
+            <li>مشروع 2 (قريباً)</li>
+        </ul>
+        
+        <p><a href="https://github.com/ouaziryoucef29">زور صفحتي على GitHub</a></p>
+        
+        <footer>&copy; 2024 جميع الحقوق محفوظة</footer>
+    </div>
 
-    <main>
-        <section class="about">
-            <h2>من أنا؟</h2>
-            <p>اسمي يوسف، وأنا أتعلم البرمجة لبناء مواقع وتطبيقات رائعة!</p>
-        </section>
-
-        <section class="projects">
-            <h2>مشروعاتي</h2>
-            <ul>
-                <li><a href="#">مشروع 1 (قريباً)</a></li>
-                <li><a href="#">مشروع 2 (قريباً)</a></li>
-            </ul>
-        </section>
-
-        <a href="https://github.com/ouaziryoucef29" class="github-btn" target="_blank">
-            زور صفحتي على GitHub
-        </a>
-    </main>
-
-    <footer>
-        <p>© 2024 جميع الحقوق محفوظة</p>
-    </footer>
 </body>
 </html>
